@@ -4,7 +4,7 @@
 histopathological image classification. the CaDT-Net architecture primarily consists of three parts: a pre-trained 
 MaxViT as a backbone, a cascaded deformable transformer layer (CDTL), and a classification layer for multiclass 
 classification of breast cancer as shown in figure below. </p>
-<img src="RDTNet.jpg" alt="Architecture of CaDT-Net">
+<img src="CaDT-Net.jpg" alt="Architecture of CaDT-Net">
 <p align="justify"> At first the histopathological image undergoes an initial passage through a backbone transformer network, 
 resulting in the extraction of hierarchical feature maps F. Subsequently, these feature maps are fed into the proposed
 CDTL to model wide-range feature dependencies. The CDTL introduces a cascaded deformable self-attention (CDSA) module
